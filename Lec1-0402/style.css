@@ -1,0 +1,63 @@
+.navbar-container{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    margin: -15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.navlist{
+    display: flex;
+    justify-content: start;
+    list-style-type: none;
+}
+
+li{
+        position: relative;
+        margin : 2%;
+        background-color: gray;
+        border: white 2px solid;
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        padding-left: 15px;
+        padding-top: 20px;
+        cursor:pointer;  
+        color: white;
+        
+}
+
+.popup{
+    display: none;
+    list-style-type: none;
+}
+
+.body-container{
+    margin: 5px;
+    margin-top: 25px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-container{
+    display: flex;
+}
+
+button{
+        position: relative;
+        margin : 2%;
+        background-color:  blue;
+        border: white 2px solid;
+        border-radius: 20px;
+        padding:5px;
+        width: 100px;
+        height: 50px;
+        cursor:pointer;  
+}
+
+.mapouter{
+    margin-left: 75%;
+}
