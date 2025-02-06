@@ -1,47 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
 </head>
+
 <body>
-        <nav>
-            <label id="logo">
-                Rishabh
-            </label>
-            <input type="checkbox" id="btnMenu">
-            <label for="btnMenu" class="toggleMenu">
-                <i class="fas fa-bars"></i>
-            </label>
-            <div class="links">
-                <a href="">Home</a>
-                <a href="">Projects</a>
-                <a href="">Skills</a>
-                <a href="">Experience</a>
-                <a href="">Contact</a>
+    <nav>
+        <label id="logo">
+            Rishabh
+        </label>
+
+        <div class="links">
+            <a href="#h">Home</a>
+            <a href="#p">Projects</a>
+            <a href="#s">Skills</a>
+            <a href="">Experience</a>
+            <a href="">Contact</a>
+        </div>
+
+
+    </nav>
+
+    <div class="myprofile-container">
+        <div class="description-container">
+            <h1 class="p1-description-container">Hi,</h1>
+            <h2 class="p2-description-container">My Name is
+                <span class="name-description-container">Rishabh Sharma</span>
+            </h2>
+
+            <div class="profile-description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi mollitia vel officia dolorem
+                    cumque quam harum eligendi explicabo modi iure! Laboriosam suscipit, officia odio, velit,
+                    corrupti quam explicabo ex rerum asperiores qui ad doloremque libero. Tempora nam, ipsum quidem,
+                    fuga alias expedita, natus aliquid hic sed reiciendis similique excepturi quod. ipsum dolor sit
+                    amet consectetur adipisicing elit. Animi nesciunt neque doloremque ipsam natus ab. Ex minus
+                    soluta impedit ratione.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+                    soluta minima quod ipsam facere molestias voluptatibus aliquid cupiditate cumque quas
+                    necessitatibus est similique accusamus, animi consequatur officia asperiores alias eius.</p>
             </div>
-        </nav>
+        </div>
+        <img class="profile-img-container" src="img1.jpg" alt="profile">
 
-    <div class="body-container">
-        <div class="myprofile-container">
-            <div class="description-container">
-                <h1 class="p1-description-container">Hi,</h1>
-                <h2 class="p2-description-container">My Name is 
-                    <span class="name-description-container">Rishabh Sharma</span>
-                </h2>
+    </div>
 
-                <div class="profile-description">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi mollitia vel officia dolorem cumque quam harum eligendi explicabo modi iure! Laboriosam suscipit, officia odio, velit, corrupti quam explicabo ex rerum asperiores qui ad doloremque libero. Tempora nam, ipsum quidem, fuga alias expedita, natus aliquid hic sed reiciendis similique excepturi quod. ipsum dolor sit amet consectetur adipisicing elit. Animi nesciunt neque doloremque ipsam natus ab. Ex minus soluta impedit ratione.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident soluta minima quod ipsam facere molestias voluptatibus aliquid cupiditate cumque quas necessitatibus est similique accusamus, animi consequatur officia asperiores alias eius.</p>
+
+    <div id="p" class="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Twitter Clone</h3>
+                <p>A responsive Twitter-like platform with real-time updates.</p>
+            </div>
+
+            <a href="https://chatapp-client-one.vercel.app/login">
+                <div class="project-card">
+                    <h3>LiveChat</h3>
+                    <p>A Real Time Chat Application</p>
                 </div>
-            </div>
-                <img class="profile-img-container" src="img1.jpg" alt="profile">
-            
+            </a>
+
+            <a href="https://todo-list-1162.netlify.app/">
+                <div class="project-card">
+                    <h3>To-Do List</h3>
+                    <p>A task management app with real-time updates.</p>
+                </div>
+            </a>
+
+            <a href="https://true-weather-365.netlify.app/">
+                <div class="project-card">
+                    <h3>Weather App</h3>
+                    <p>Fetches real-time weather data using APIs.</p>
+                </div>
+            </a>
         </div>
     </div>
+
+    <div id="s" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <span class="skill">Python</span>
+            <span class="skill">C++</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">MongoDB</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">GitHub</span>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-container">
+            <h3>Contact Me</h3>
+            <p>Email: rishabhsharma7206@gmail.com</p>
+            <p>Phone: +91 86859 81402</p>
+            <p>Location: Kaithal, India</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/rishabhsharma1162/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/rishabhsharma8685" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
