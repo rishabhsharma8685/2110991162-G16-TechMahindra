@@ -1,0 +1,248 @@
+body {
+    font-family: "Open Sans", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2%;
+}
+
+.header-btn {
+    border: 2px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    background-color: white;
+    border-radius: 20px;
+    padding: 1px 25px 1px 25px;
+    box-shadow: 2px 2px 2px 2px hsl(207, 100%, 98%);
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+.body-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+.body-btn {
+    border: 2px solid hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 25px;
+    padding: 12px 50px 12px 50px;
+    box-shadow: 2px 2px 2px 2px hsl(207, 100%, 98%);
+}
+
+.body-1 p {
+    max-width: 500px;
+    text-align: center;
+    margin-top: -40px;
+    color: gray;
+}
+
+.body-1 h1 {
+    font-size: 50px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+}
+
+.body-2 {
+    display: flex;
+    justify-content: center;
+    gap: 60vh;
+}
+
+.body-2 h1 {
+    font-size: 70px;
+    margin-top: -5px;
+}
+
+.body-2 p {
+    margin-top: -25px;
+    color: gray;
+}
+
+
+.Grow {
+    background-color: hsl(207, 100%, 98%);
+    display: flex;
+    margin-top: -5px;
+    gap: 20vh;
+    align-items: center;
+    padding: 100px;
+}
+
+.body-4 {
+    display: flex;
+    gap: 20vh;
+    align-items: center;
+    padding: 100px;
+}
+
+.User {
+    background-color: hsl(207, 100%, 98%);
+    display: flex;
+    margin-top: -5px;
+    gap: 20vh;
+    align-items: center;
+    padding: 100px;
+}
+
+.body-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clr {
+    width: 100%;
+}
+
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -1vh;
+}
+
+.foot {
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 40%;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.foot p {
+    max-width: 50vh;
+}
+
+.foot button {
+    background-color: hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 2px;
+    padding: 4px 18px 4px 18px;
+    color: white;
+}
+
+.foot input {
+    padding: 4px;
+    margin-right: 15px;
+}
+
+.sample{
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.social {
+
+    margin-top: 10vh;
+    font-size: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.img2 {
+    max-width: 80vh;
+    max-height: 80vh;
+}
+
+h1{
+    font-weight: 700;
+    font-family: "Poppins", serif;
+}
+
+.phone{
+    max-width: 15px;
+    max-height: 10px;
+}
+
+@media screen and (max-width:376px) {
+    .body-1 h1{
+        font-size:36px ;
+        text-align: center;
+    }
+    .body-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   .body-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 10vh;
+   }
+   .img1{
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: 60px;
+   }
+   .header{
+    justify-content: space-between;
+    gap: 10px;
+   }
+   .header img{
+    max-width: 20vh;
+   }
+   .Grow , .User {
+    flex-direction: column-reverse;
+   }
+   .body-4{
+    flex-direction: column;
+   }
+
+   .img2{
+    max-width: 40vh;
+    max-height: 40vh;
+   }
+
+   .foot{
+    flex-direction: column-reverse;
+    gap: 10vh;
+     font-size: smaller;
+     padding: 30px;
+     padding-bottom: 20vh;
+   }
+   
+   .social{
+    margin-top: 30px;
+    font-size: 30px;
+   }
+
+   
+   .sample{
+    flex-direction: column;
+    align-items: end;
+   }
+   .sample button{
+    margin-right: 15px;
+    margin-top: 5px;
+   }
+
+   .body-6{
+    
+    text-align: center;
+   }
+}
