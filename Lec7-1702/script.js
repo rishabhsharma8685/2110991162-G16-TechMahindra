@@ -40,40 +40,40 @@
 // // })
 
 
-function reachedRestaurant(callback){
-    console.log("Reached Restaurant");
-    setTimeout(callback, 1000);
-}
+// function reachedRestaurant(callback){
+//     console.log("Reached Restaurant");
+//     setTimeout(callback, 1000);
+// }
 
-function TableFinding(callback){
-    console.log("Table Finding");
-    setTimeout(callback, 1000);
-}
+// function TableFinding(callback){
+//     console.log("Table Finding");
+//     setTimeout(callback, 1000);
+// }
 
-function MenuDiscover(callback){
-    console.log("Menu Discover");
-    setTimeout(callback, 1000);
-}
+// function MenuDiscover(callback){
+//     console.log("Menu Discover");
+//     setTimeout(callback, 1000);
+// }
 
-function starterOrder(callback){
-    console.log("Starter Order");
-    setTimeout(callback, 1000);
-}
+// function starterOrder(callback){
+//     console.log("Starter Order");
+//     setTimeout(callback, 1000);
+// }
 
-function mainCourse(callback){
-    console.log("Main Course Order");
-    setTimeout(callback, 1000);
-}
+// function mainCourse(callback){
+//     console.log("Main Course Order");
+//     setTimeout(callback, 1000);
+// }
 
-function dessert(callback){
-    console.log("Dessert Order");
-    setTimeout(callback, 1000);
-}
+// function dessert(callback){
+//     console.log("Dessert Order");
+//     setTimeout(callback, 1000);
+// }
 
-function payBill(callback){
-    console.log("PayBill");
-    setTimeout(callback, 1000);
-}
+// function payBill(callback){
+//     console.log("PayBill");
+//     setTimeout(callback, 1000);
+// }
 
 // Chaining the Callbacks
 
