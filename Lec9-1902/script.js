@@ -252,13 +252,13 @@ createOrder(cart)
 
 // promise.all -> return failure Even if one promise failed and first failed reason is given
 
-/* promise.allSettled -> return an array of fulfilled promise at the end of longest promise time
+/* promise.allSettled -> return an array of fulfilled or rejected promise at the end of longest promise time
 even if some promises fail*/
 
 /*promise.any -> if any fulfilled it will return it and if all failed it will return
-error messages of all.*/ 
+error messages of all.called aggregate error*/ 
 
-/*promise.race ->  */
+/*promise.race -> if any promise settled first whether fulfilled or reject is returned*/
 
 
 
